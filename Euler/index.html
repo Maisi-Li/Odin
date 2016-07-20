@@ -2,6 +2,10 @@
 <html>
     <head>
         <title>Euler</title>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="css/myStyle.css" type="text/css" />
+        
+        
         <script type="text/javascript" src="javascript/problem1.js"></script>
         <script type="text/javascript" src="javascript/problem2.js"></script>
         <script type="text/javascript" src="javascript/problem3.js"></script>
@@ -12,43 +16,53 @@
             <h1>The Odin Project - Euler</h1>
         </header>
         
+        <div class="jumbotron">
+            <div class = "container">
+                <section class="col-md-4">
+                <h2>Sum of multiples of 3 or 5</h2>
+                <p>Find the sum of all the multiples of 3 or 5 below given number.</p>
+                
+                <form>
+                    <div class="form-group">
+                    <input type="text" name="problem1" id="value1" class="form-control"/>
+                    </div>
+                    <button type="button" onclick="multiple3And5()" class="btn btn-default" >Submit</button>
+                </form>
+                
+                <p id="result1"></p>
+            </section>
+            
+            <section class="col-md-4">
+                <h2>Sum of even Fibonacci Number</h2>
+                <p>By considering the terms in the Fibonacci sequence whose values
+                do not exceed four million, find the sum of the even-valued terms.</p>
+                
+                <form>
+                    <div class="form-group">
+                    <input type="text" name="problem2" id="value2" class="form-control"/>
+                    </div>
+                    <button type="button" onclick="evenFibonacci()" class="btn btn-default">Submit</button>
+                </form>
+                
+                <p id="result2"></p>
+            </section>
+            
+            <section class="col-md-4">
+                <h2>Largest prime factor</h2>
+                <p>By considering the terms in the Fibonacci sequence whose values
+                do not exceed four million, find the sum of the even-valued terms.</p>
+                
+                <form>
+                    <div class="form-group">
+                    <input type="text" name="problem3" id="value3" class="form-control"/>
+                    </div>
+                    <button type="button" onclick="LargestPrime()" class="btn btn-default">Submit</button>
+                </form>
+                
+                <p id="result3"></p>
+            </section>
+        </div>
+        </div>
         
-        <section>
-            <h2>Sum of multiples of 3 or 5</h2>
-            <p>Find the sum of all the multiples of 3 or 5 below given number.</p>
-            
-            <form>
-                <input type="text" name="problem1" id="value1" />
-                <button type="button" onclick="multiple3And5()">Submit</button>
-            </form>
-            
-            <p id="result1"></p>
-        </section>
-        
-        <section>
-            <h2>Sum of even Fibonacci Number</h2>
-            <p>By considering the terms in the Fibonacci sequence whose values
-            do not exceed four million, find the sum of the even-valued terms.</p>
-            
-            <form>
-                <input type="text" name="problem2" id="value2" />
-                <button type="button" onclick="evenFibonacci()">Submit</button>
-            </form>
-            
-            <p id="result2"></p>
-        </section>
-        
-        <section>
-            <h2>Largest prime factor</h2>
-            <p>By considering the terms in the Fibonacci sequence whose values
-            do not exceed four million, find the sum of the even-valued terms.</p>
-            
-            <form>
-                <input type="text" name="problem3" id="value3" />
-                <button type="button" onclick="LargestPrime()">Submit</button>
-            </form>
-            
-            <p id="result3"></p>
-        </section>
     </body>
 </html>

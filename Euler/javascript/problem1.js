@@ -8,7 +8,7 @@ var multiple3And5 = function(){
             else if(i %5 == 0) sum+=i;
         }
         
-        document.getElementById("result1").innerHTML = sum;
+        document.getElementById("result1").innerHTML = "Result is: " + sum;
     }
     else
         alert("Number should be an integer that larger than 0 and less than 1000");
