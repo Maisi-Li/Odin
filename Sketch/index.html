@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sketch</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="my.css" type="text/css" />
+        
+        
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
+
+        
+    </head>
+    <body>
+        <h1>The Odin Project - Sketch</h1>
+        <div class="container">
+            <div id="controller">
+                <form>
+                    <fieldset class="form-group">
+                        <label for="gridRow">Number of gird in a row</label>
+                        <input type="number" name="gridRow" class="form-control"/>
+                    </fieldset>
+                    
+                    <fieldset class="form-group">
+                        <label for="gridCol">Number of gird in a column</label><br />
+                        <input type="number" name="gridCol" class="form-control"/>
+                    </fieldset>
+                    
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                              Default sketch
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                              Random
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                              Trail
+                        </label>
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-primary"/>
+                    <button type="button" name="Reset" class="btn btn-success" id="reset" >Reset Sketch</button> 
+                </form>
+            </div>
+            <div id="box">
+                
+            </div>
+        </div>
+        
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

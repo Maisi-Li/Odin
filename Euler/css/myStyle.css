@@ -1,0 +1,30 @@
+header, section {
+    text-align: center;
+}
+
+header {
+    background-color: #E37222;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    margin-top: 0px;
+    color: white;
+}
+
+section {
+    /*background-color: #66B9BF;*/
+    margin: 10px auto;
+    border: 1px;
+}
+section p {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+    
+}
+
+#result1, #result2, #result3 {
+    text-align: left;
+}
