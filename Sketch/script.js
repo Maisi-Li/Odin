@@ -84,15 +84,11 @@ function randomColor(){
 
 function trail(){
     $('.grid').mouseenter(function(){
-        // var $temp = $('<div class="temp_grid"></div>');
-        // $temp.appendTo($(this));
         $(this).addClass('temp_grid');
     });
     
     $('.grid').mouseleave(function(){
-        // var $temp = $('<div class="temp_grid"></div>');
-        // $temp.appendTo($(this));
-        $(this).removeClass('temp_grid',10000);
+        $(this).removeClass('temp_grid',1000);
     });
 };
 

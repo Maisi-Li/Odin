@@ -4,6 +4,10 @@ h1 {
     padding: 20px ;
     background-color: #E37222;
 }
+#controller {
+    margin: 10px auto;
+    /*float: left;*/
+}
 
 #reset {
     width: 120px;
@@ -11,7 +15,7 @@ h1 {
 }
 
 #box {
-    width: 800px;
+    width: 100%;
     margin: 10px auto;
 }
 
